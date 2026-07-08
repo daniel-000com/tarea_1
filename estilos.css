@@ -73,3 +73,33 @@ input:focus {
     outline: 2px solid #234a8b;
     background: #f8fbff;
 }
+.tabla-frecuencias {
+    width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+
+.tabla-frecuencias table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-frecuencias th,
+.tabla-frecuencias td {
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+
+.tabla-frecuencias input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    box-sizing: border-box;
+}
+.tabla-frecuencias th:first-child,
+.tabla-frecuencias td:first-child {
+    width: 170px;
+}
